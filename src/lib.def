@@ -1,0 +1,19 @@
+LIBRARY libcloud.dll
+
+EXPORTS
+    OA043711000000=cloud_boot @1
+    OA043711000001=cloud_finished_booting @2
+	OA043711000002=cloud_shutdown @3
+	OA043711000003=cloud_get_error_module @4
+	OA043711000004=cloud_get_error_status @5
+	OA043711000009=cloud_get_server_state @10
+	OA043711000013=cloud_get_subscription_status @14
+	OA043711000023=cloud_acrelay_request @24
+	OA043711000024=cloud_acrelay_wait @25
+	OA043711000025=cloud_acrelay_get @26
+	OA043711000029=cloud_card_get @30
+	OA043711000033=cloud_download_request @34
+	OA043711000034=cloud_download_wait @35
+    OA043711000046=cloud_get_acrelay_status @47
+    OA043711000050=cloud_unk1 @51
+    OA043711000051=cloud_unk2 @52
